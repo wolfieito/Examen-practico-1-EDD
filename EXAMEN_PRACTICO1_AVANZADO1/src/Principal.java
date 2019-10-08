@@ -24,7 +24,7 @@ public class Principal {
         int numAleatorio = (int) (Math.random());
         String adivina;
         char let;
-        int numOportunidades, letAcertadas = 1, noAcertoLetra = -1, conti=0;
+        int numOportunidades, letAcertadas = 1, noAcertoLetra = -1, conti = 0;
         boolean ganaPierde = false;
         int adivinaoNo = 0;
         char[][] letras;
@@ -71,7 +71,7 @@ public class Principal {
                         let = d.nextLine().charAt(0);
 
                         for (int j = 0; j < letras.length; j++) {
-                            if (letAcertadas == ((letras[numAleatorio].length)*(letras[numAleatorio].length))) {
+                            if (letAcertadas == ((letras[numAleatorio].length) * (letras[numAleatorio].length))) {
                                 ganaPierde = true;
                                 System.out.println("Felicidades, ganaste");
                             }
@@ -95,8 +95,9 @@ public class Principal {
                     }
                     if (noAcertoLetra > 0) {
                         numOportunidades--;
-                        if(numOportunidades > 0)
-                        System.out.println("Tienes " + numOportunidades + " oportunidades");
+                        if (numOportunidades > 0) {
+                            System.out.println("Tienes " + numOportunidades + " oportunidades");
+                        }
                     }
                     if (numOportunidades == 0) {
                         ganaPierde = true;
@@ -145,7 +146,7 @@ public class Principal {
                         let = d.nextLine().charAt(0);
 
                         for (int j = 0; j < letras.length; j++) {
-                            if (letAcertadas == (letras[numAleatorio].length)*(letras[numAleatorio].length)) {
+                            if (letAcertadas == (letras[numAleatorio].length) * (letras[numAleatorio].length)) {
                                 ganaPierde = true;
                                 System.out.println("Felicidades, ganaste");
                             }
@@ -169,8 +170,9 @@ public class Principal {
                     }
                     if (noAcertoLetra > 0) {
                         numOportunidades--;
-                        if(numOportunidades > 0)
-                        System.out.println("Tienes " + numOportunidades + " oportunidades");
+                        if (numOportunidades > 0) {
+                            System.out.println("Tienes " + numOportunidades + " oportunidades");
+                        }
                     }
                     if (numOportunidades == 0) {
                         ganaPierde = true;
@@ -226,7 +228,7 @@ public class Principal {
                         let = d.nextLine().charAt(0);
 
                         for (int j = 0; j < letras.length; j++) {
-                            if (letAcertadas == (letras[numAleatorio].length)*(letras[numAleatorio].length)) {
+                            if (letAcertadas == (letras[numAleatorio].length) * (letras[numAleatorio].length)) {
                                 ganaPierde = true;
                                 System.out.println("Felicidades, ganaste");
                             }
@@ -250,8 +252,9 @@ public class Principal {
                     }
                     if (noAcertoLetra > 0) {
                         numOportunidades--;
-                        if(numOportunidades > 0)
-                        System.out.println("Tienes " + numOportunidades + " oportunidades");
+                        if (numOportunidades > 0) {
+                            System.out.println("Tienes " + numOportunidades + " oportunidades");
+                        }
                     }
                     if (numOportunidades == 0) {
                         ganaPierde = true;
@@ -308,7 +311,7 @@ public class Principal {
                         let = d.nextLine().charAt(0);
 
                         for (int j = 0; j < letras.length; j++) {
-                            if (letAcertadas == (letras[numAleatorio].length)*(letras[numAleatorio].length)) {
+                            if (letAcertadas == (letras[numAleatorio].length) * (letras[numAleatorio].length)) {
                                 ganaPierde = true;
                                 System.out.println("Felicidades, ganaste");
                             }
@@ -332,8 +335,9 @@ public class Principal {
                     }
                     if (noAcertoLetra > 0) {
                         numOportunidades--;
-                        if(numOportunidades > 0)
-                        System.out.println("Tienes " + numOportunidades + " oportunidades");
+                        if (numOportunidades > 0) {
+                            System.out.println("Tienes " + numOportunidades + " oportunidades");
+                        }
                     }
                     if (numOportunidades == 0) {
                         ganaPierde = true;
@@ -399,7 +403,7 @@ public class Principal {
                         let = d.nextLine().charAt(0);
 
                         for (int j = 0; j < letras.length; j++) {
-                            if (letAcertadas == (letras[numAleatorio].length)*(letras[numAleatorio].length)) {
+                            if (letAcertadas == (letras[numAleatorio].length) * (letras[numAleatorio].length)) {
                                 ganaPierde = true;
                                 System.out.println("Felicidades, ganaste");
                             }
@@ -423,8 +427,9 @@ public class Principal {
                     }
                     if (noAcertoLetra > 0) {
                         numOportunidades--;
-                        if(numOportunidades > 0)
-                        System.out.println("Tienes " + numOportunidades + " oportunidades");
+                        if (numOportunidades > 0) {
+                            System.out.println("Tienes " + numOportunidades + " oportunidades");
+                        }
                     }
                     if (numOportunidades == 0) {
                         ganaPierde = true;
