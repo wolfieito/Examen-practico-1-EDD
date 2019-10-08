@@ -21,7 +21,7 @@ public class Principal {
      */
     public static void main(String[] args) {
         Scanner d = new Scanner(System.in);
-        int numAleatorio = (int) (Math.random());
+        int numAleatorio = (int) (Math.random()*4);
         String adivina;
         char let;
         int numOportunidades, letAcertadas = 1, noAcertoLetra = -1, conti = 0;
@@ -48,6 +48,7 @@ public class Principal {
                 System.out.print("[" + extra[numAleatorio][i] + "]");
             }
             System.out.println("");
+            System.out.println("Tienes " + numOportunidades + " oportunidades");
             for (int i = 0; i < letras.length; i++) {
                 while (ganaPierde != true) {
                     System.out.println("Sabes la palabra? (0 = si o 1 = no) ");
