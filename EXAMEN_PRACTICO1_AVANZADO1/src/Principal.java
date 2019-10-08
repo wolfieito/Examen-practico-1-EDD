@@ -21,7 +21,7 @@ public class Principal {
      */
     public static void main(String[] args) {
         Scanner d = new Scanner(System.in);
-        int numAleatorio = (int) (Math.random()*4);
+        int numAleatorio = (int) (Math.random());
         String adivina;
         char let;
         int numOportunidades, letAcertadas = 1, noAcertoLetra = -1, conti=0;
@@ -71,7 +71,7 @@ public class Principal {
                         let = d.nextLine().charAt(0);
 
                         for (int j = 0; j < letras.length; j++) {
-                            if (letAcertadas == ((letras[numAleatorio].length)*(letras[numAleatorio].length))-1) {
+                            if (letAcertadas == ((letras[numAleatorio].length)*(letras[numAleatorio].length))) {
                                 ganaPierde = true;
                                 System.out.println("Felicidades, ganaste");
                             }
